@@ -10,8 +10,8 @@ import pickle
 import numpy as np
 
 # import the model
-pipe = pickle.load(open('C:/Users/Afroz/Desktop/Streamlit Test/Best Code Streamlit/Z Test Programs/1000 companies/pipe.pkl','rb'))
-df = pickle.load(open('C:/Users/Afroz/Desktop/Streamlit Test/Best Code Streamlit/Z Test Programs/1000 companies/df.pkl','rb'))
+pipe = pickle.load(open('pipe.pkl','rb'))
+df = pickle.load(open('df.pkl','rb'))
 
 st.title("Company Profit")
 
